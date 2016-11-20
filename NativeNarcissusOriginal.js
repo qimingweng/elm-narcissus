@@ -34,7 +34,7 @@ function objectFromListOfStyles(list) {
   return object;
 }
 
-var _user$project$Native_Narcissus = function(a, b, c) {
+var _qimingweng$elm_narcissus$Native_Narcissus = function(a, b, c) {
   function inject(list) {
     // Turn that list into an array
     const object = objectFromListOfStyles(list);
@@ -49,4 +49,4 @@ var _user$project$Native_Narcissus = function(a, b, c) {
 
 // We have to attach this to the window (or another global) because webpack
 // scopes all of its output so no variables bleed into the global scope
-window._user$project$Native_Narcissus = _user$project$Native_Narcissus;
+window._qimingweng$elm_narcissus$Native_Narcissus = _qimingweng$elm_narcissus$Native_Narcissus;
